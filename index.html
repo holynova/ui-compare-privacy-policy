@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UI Compare Privacy Policy / 隐私政策</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #202124;
+        --muted: #5f6368;
+        --line: #dadce0;
+        --paper: #ffffff;
+        --wash: #f8f9fa;
+        --accent: #1a73e8;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--wash);
+        color: var(--ink);
+        font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      main {
+        width: min(900px, calc(100% - 32px));
+        margin: 40px auto;
+        padding: clamp(24px, 5vw, 56px);
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+      }
+      h1, h2 { line-height: 1.2; letter-spacing: -0.02em; }
+      h1 { margin: 0 0 8px; font-size: clamp(30px, 5vw, 48px); }
+      h2 { margin: 36px 0 10px; font-size: 23px; }
+      p, ul { margin: 10px 0; }
+      .meta { color: var(--muted); margin: 0 0 32px; }
+      .language { padding-top: 4px; }
+      .language + .language { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--line); }
+      a { color: var(--accent); }
+      code { padding: 2px 5px; background: #f1f3f4; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>UI Compare Privacy Policy</h1>
+        <p class="meta">Last updated: 2026-08-11 · Contact: <a href="mailto:holy_nova@126.com">holy_nova@126.com</a></p>
+      </header>
+
+      <section class="language" lang="en">
+        <h2>English</h2>
+        <p>UI Compare is a local-first Chrome extension for comparing a reference design with the current web page. This policy explains what the extension stores and how it handles access.</p>
+
+        <h2>Local storage</h2>
+        <p>Uploaded design images, thumbnails, project settings, and page-comparison context are stored locally in the extension's IndexedDB database in Chrome. This can include comparison mode, opacity, dimensions, selected page elements, and notes that you choose to save.</p>
+        <p>UI Compare does not use developer-operated servers, analytics, advertising, user accounts, or login. It does not sell or share your data with third parties.</p>
+
+        <h2>Current-page access</h2>
+        <p>UI Compare requests the Chrome <code>activeTab</code> capability only after you trigger the extension from its toolbar action or keyboard command. The access is limited to the current tab and is temporary. The extension does not request broad host permissions and does not continuously monitor pages.</p>
+        <p>Chrome-protected pages such as <code>chrome://</code> pages and the Chrome Web Store cannot be injected into by extensions. This is a browser limitation, not a request for broader permission.</p>
+
+        <h2>Export and import</h2>
+        <p>Archive export and import are user-initiated local actions. An archive is saved to or selected from your device; UI Compare does not upload it to a cloud service or developer-operated server.</p>
+
+        <h2>Retention and deletion</h2>
+        <p>Local projects remain in Chrome's extension storage until you delete them, clear the extension's local data, or uninstall the extension. You control whether to keep or delete exported archive files on your device.</p>
+
+        <h2>Contact</h2>
+        <p>For privacy questions, contact <a href="mailto:holy_nova@126.com">holy_nova@126.com</a>.</p>
+      </section>
+
+      <section class="language" lang="zh-CN">
+        <h2>中文</h2>
+        <p>UI Compare 是一款本地优先的 Chrome 扩展，用于比较参考设计与当前网页。本政策说明扩展保存哪些内容以及如何处理页面访问。</p>
+
+        <h2>本地存储</h2>
+        <p>您上传的设计图片、缩略图、项目设置和页面比较上下文，都会保存在 Chrome 中扩展自己的 IndexedDB 数据库内。您主动保存的比较模式、不透明度、尺寸、选中的页面元素和备注也可能包含在其中。</p>
+        <p>UI Compare 不使用开发者运营的服务器、分析服务、广告、用户账户或登录功能，也不会向第三方出售或共享您的数据。</p>
+
+        <h2>当前页面访问</h2>
+        <p>只有当您点击扩展工具栏按钮或触发键盘命令后，UI Compare 才请求 Chrome 的 <code>activeTab</code> 能力。该访问仅限当前标签页并且是临时的。扩展不申请广泛的主机权限，也不会持续监控网页。</p>
+        <p>对于 <code>chrome://</code> 页面和 Chrome Web Store 等 Chrome 保护页面，扩展无法注入。这是浏览器本身的限制，并不意味着需要申请更广泛的权限。</p>
+
+        <h2>导出和导入</h2>
+        <p>归档导出和导入均由您主动发起并在本地完成。归档文件保存到您的设备或从设备中选择；UI Compare 不会将其上传到云服务或开发者运营的服务器。</p>
+
+        <h2>保存期限与删除</h2>
+        <p>本地项目会保留在 Chrome 的扩展存储中，直到您删除项目、清除扩展本地数据或卸载扩展。设备上的归档文件是否保留或删除，由您自行决定。</p>
+
+        <h2>联系</h2>
+        <p>如有隐私问题，请联系 <a href="mailto:holy_nova@126.com">holy_nova@126.com</a>。</p>
+      </section>
+    </main>
+  </body>
+</html>
