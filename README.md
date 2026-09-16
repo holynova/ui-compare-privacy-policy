@@ -3,6 +3,11 @@
 
 This repository contains the public, bilingual privacy policy for the UI Compare Chrome extension.
 
+<p align="center">
+  <img src="assets/readme/hero.svg" width="100%" alt="UI Compare Privacy Policy: This repository contains the public, bilingual privacy policy for the UI Compare Chrome extension.">
+</p>
+
+
 ![UI Compare bilingual privacy policy page](./screenshot.png)
 
 Live policy: https://holynova.github.io/ui-compare-privacy-policy/

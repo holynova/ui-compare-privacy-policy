@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">UI Compare Privacy Policy</title>
+  <desc id="desc">This repository contains the public, bilingual privacy policy for the UI Compare Chrome extension.</desc>
+  <rect width="1200" height="360" rx="28" fill="#f2f0e9"/>
+  <path d="M0 310C250 280 410 342 650 300s350-18 550 20v40H0Z" fill="#6c8490" opacity=".12"/>
+  <text x="58" y="52" fill="#d68d2e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2.5">PRIVACY · POLICY · EXTENSION</text>
+  <path d="M58 70H710" stroke="#6c8490" stroke-width="2" opacity=".6"/>
+  <text x="58" y="126" fill="#25282b" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="52" font-weight="700">UI Compare Privacy Policy</text>
+  <text x="60" y="190" fill="#6c8490" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="21">This repository contains the public, bilingual privacy policy</text><text x="60" y="220" fill="#6c8490" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="21">for the UI Compare Chrome extension.</text>
+    <g transform="translate(60 274)"><rect width="250" height="34" rx="17" fill="#d68d2e"/><text x="18" y="23" fill="#f2f0e9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">PROJECT-NATIVE README</text></g>
+  <g transform="translate(790 48)"><rect width="350" height="252" rx="16" fill="#25282b"/><path d="M0 48h350" stroke="#6c8490" stroke-width="2"/><circle cx="28" cy="25" r="6" fill="#d68d2e"/><circle cx="50" cy="25" r="6" fill="#6c8490"/><circle cx="72" cy="25" r="6" fill="#d5d6ce"/><rect x="28" y="78" width="105" height="142" rx="9" fill="#d68d2e" opacity=".28"/><rect x="158" y="78" width="164" height="18" rx="9" fill="#6c8490"/><rect x="158" y="114" width="128" height="13" rx="6" fill="#6c8490" opacity=".8"/><rect x="158" y="145" width="150" height="13" rx="6" fill="#6c8490" opacity=".65"/><rect x="158" y="176" width="92" height="13" rx="6" fill="#d68d2e"/></g>
+</svg>
